@@ -4,6 +4,7 @@ package StructuralPatterns.FacadePattern;
  * Created by aliyuabdullahi on 12/25/16.
  */
 public class Ak47 implements Gun {
+
     private boolean isJammed;
     private static double BULLET_IMPACT = 100;
     int numberOfBullets = 60;

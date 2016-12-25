@@ -4,6 +4,7 @@ package StructuralPatterns.FacadePattern;
  * Created by aliyuabdullahi on 12/25/16.
  */
 public class Soldier {
+
     private boolean isPrepared = false;
     private Gun gun;
 
@@ -24,7 +25,6 @@ public class Soldier {
         if (isPrepared) {
             gun.aim();
             gun.shoot();
-
         } else {
             isPrepared = false;
             System.out.println("Solder is not ready yet, prepare and fire");

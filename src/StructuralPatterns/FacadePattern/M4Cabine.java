@@ -4,6 +4,7 @@ package StructuralPatterns.FacadePattern;
  * Created by aliyuabdullahi on 12/25/16.
  */
 public class M4Cabine implements  Gun {
+
     private static double BULLET_IMPACT = 80;
     private boolean isJammed;
     int numberOfBullets = 60;
@@ -78,6 +79,7 @@ public class M4Cabine implements  Gun {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         System.out.println("Gun cleaned and ready to go!");
     }
 
@@ -101,7 +103,6 @@ public class M4Cabine implements  Gun {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     @Override

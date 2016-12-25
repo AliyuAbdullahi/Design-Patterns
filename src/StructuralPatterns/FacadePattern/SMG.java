@@ -4,6 +4,7 @@ package StructuralPatterns.FacadePattern;
  * Created by aliyuabdullahi on 12/25/16.
  */
 public class SMG implements Gun {
+
     private static double BULLET_IMPACT = 60;
     private boolean isJammed;
     int numberOfBullets = 200;
@@ -102,7 +103,6 @@ public class SMG implements Gun {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     @Override
