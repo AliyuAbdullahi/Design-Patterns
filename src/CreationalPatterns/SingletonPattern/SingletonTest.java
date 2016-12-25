@@ -7,7 +7,7 @@ import CreationalPatterns.SingletonPattern.models.Person;
  */
 public class SingletonTest {
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         PersonRepository repository = PersonRepository.getInstance();
 
         Person person = new Person();
@@ -17,6 +17,12 @@ public class SingletonTest {
         repository.create(person);
         repository.create(person);
 
+        repository.delete(0);
+
+        repository.create(person);
+
         repository.getAll().forEach(System.out::println);
+
+        repository.deleteAll();
     }
 }

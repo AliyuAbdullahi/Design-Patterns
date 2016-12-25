@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60d183fe-afca-4407-b9e7-b86c89213e68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/IRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/PersonRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/SingletonTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/models/Person.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/Ak47.java" afterPath="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/Ak47.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/FactoryTest.java" afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/FactoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/IRepository.java" afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/IRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/PersonRepository.java" afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/PersonRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/SingletonTest.java" afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/SingletonTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StructuralPatterns/AdapterPattern/SocketTest.java" afterPath="$PROJECT_DIR$/src/StructuralPatterns/AdapterPattern/SocketTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/FacadeTest.java" afterPath="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/FacadeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/M4Cabine.java" afterPath="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/M4Cabine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/SMG.java" afterPath="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/SMG.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/Soldier.java" afterPath="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/Soldier.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,33 +40,63 @@
       <file leaf-file-name="PersonRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/PersonRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+            <state relative-caret-position="555">
+              <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-                <element signature="e#1220#1221#0" expanded="true" />
-                <element signature="e#1267#1268#0" expanded="true" />
-                <element signature="e#1953#1954#0" expanded="true" />
-                <element signature="e#2024#2025#0" expanded="true" />
-                <element signature="e#2082#2083#0" expanded="true" />
-                <element signature="e#2130#2131#0" expanded="true" />
-                <element signature="e#2180#2181#0" expanded="true" />
-                <element signature="e#2213#2214#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+                <element signature="e#2568#2569#0" expanded="true" />
+                <element signature="e#2616#2617#0" expanded="true" />
+                <element signature="e#2666#2667#0" expanded="true" />
+                <element signature="e#2699#2700#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingletonTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SingletonTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/SingletonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/AdapterPattern/SocketTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/FactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoftDrinkPump.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/SoftDrinkPump.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="e#519#520#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +104,8 @@
       <file leaf-file-name="IRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/IRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="240">
+              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -87,8 +114,8 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/models/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="40" column="87" lean-forward="false" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="e#200#201#0" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
@@ -105,16 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="M4Cabine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/M4Cabine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Soldier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/Soldier.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FacadeTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FacadeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/FacadeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="120">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -179,12 +196,10 @@
         <option value="$PROJECT_DIR$/src/StructuralPatterns/AdapterPattern/ThreePointsWire.java" />
         <option value="$PROJECT_DIR$/src/StructuralPatterns/AdapterPattern/TwoPointsWire.java" />
         <option value="$PROJECT_DIR$/src/StructuralPatterns/AdapterPattern/SocketAdapter.java" />
-        <option value="$PROJECT_DIR$/src/StructuralPatterns/AdapterPattern/SocketTest.java" />
         <option value="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/Gun.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/SMG.java" />
-        <option value="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/FacadeTest.java" />
         <option value="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/Soldier.java" />
         <option value="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/M4Cabine.java" />
         <option value="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/Ak47.java" />
@@ -193,10 +208,13 @@
         <option value="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/callback/OfflineDatabase.java" />
         <option value="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/OfflineDatabase.java" />
         <option value="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/OnlineDatabase.java" />
+        <option value="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/models/Person.java" />
         <option value="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/IRepository.java" />
         <option value="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/PersonRepository.java" />
         <option value="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/SingletonTest.java" />
-        <option value="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/models/Person.java" />
+        <option value="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/StructuralPatterns/AdapterPattern/SocketTest.java" />
+        <option value="$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/FacadeTest.java" />
       </list>
     </option>
   </component>
@@ -246,6 +264,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StructuralPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FacadePattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StructuralPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdapterPattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,6 +364,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FactoryPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -783,21 +845,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/AdapterPattern/ThirteenAmpWallSocket.java" />
-    <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/SoftDrinkPump.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.java" />
-    <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/FactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/AdapterPattern/Socket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -823,13 +871,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/AdapterPattern/SocketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -905,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/FacadeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/Ak47.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -966,38 +1013,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/IRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/PersonRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1953#1954#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="e#2082#2083#0" expanded="true" />
-            <element signature="e#2130#2131#0" expanded="true" />
-            <element signature="e#2180#2181#0" expanded="true" />
-            <element signature="e#2213#2214#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/models/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="40" column="87" lean-forward="false" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="e#200#201#0" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
@@ -1013,10 +1038,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/PersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#2568#2569#0" expanded="true" />
+            <element signature="e#2616#2617#0" expanded="true" />
+            <element signature="e#2666#2667#0" expanded="true" />
+            <element signature="e#2699#2700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/SoftDrinkPump.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/SingletonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/AdapterPattern/SocketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/FacadePattern/FacadeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding />
         </state>
       </provider>

@@ -6,6 +6,7 @@ import java.util.List;
  * Created by aliyuabdullahi on 12/25/16.
  */
 public interface IRepository<T>  {
+
     void create(T data);
     T read();
     T read(int position);

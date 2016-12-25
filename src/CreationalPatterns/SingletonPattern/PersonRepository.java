@@ -9,6 +9,7 @@ import java.util.List;
  * Created by aliyuabdullahi on 12/25/16.
  */
 public class PersonRepository implements IRepository<Person> {
+
     private static PersonRepository personRepository;
     private static final int INDEX = 1;
     private List<Person> personList;
@@ -33,7 +34,8 @@ public class PersonRepository implements IRepository<Person> {
     public void create(Person data) {
         if (!contains(data)) {
             personList.add(data);
-        }else{
+            System.out.println("Person with Name " + data.getName() + " and age" + data.getAge() + " added successfully!");
+        } else {
             System.out.println("Person with name " + data.getName() + " and age " + data.getAge() + " already exist");
         }
     }
@@ -61,6 +63,8 @@ public class PersonRepository implements IRepository<Person> {
             }
 
             personList.set(position, currentPerson);
+        } else {
+            System.out.println("Can't find anybody at position " + position);
         }
     }
 
@@ -68,12 +72,18 @@ public class PersonRepository implements IRepository<Person> {
     public void delete(int position) {
         if (personList.size() - INDEX >= position) {
             personList.remove(position);
+            System.out.println("Person at position " + position + " has been deleted");
+        } else {
+            System.out.println("Can't find anyone in position " + position);
         }
     }
 
     @Override
     public void deleteAll() {
-        personList.forEach(person -> personList.remove(person));
+        for(int i = 0; i < personList.size(); i++) {
+            personList.remove(i);
+        }
+        System.out.println("List is now empty.");
     }
 
     @Override
