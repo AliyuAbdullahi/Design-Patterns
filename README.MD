@@ -3,7 +3,7 @@
 ####Design Patterns are general reusable solution to commonly occurring problems.
  These are the best practices, used by the experienced developers.
 
-######Design patterns can be categorized in the following categories:
+######**Design patterns can be categorized in the following categories:**
 
  * **Creational patterns**
   * Abstract Factory pattern
@@ -11,7 +11,7 @@
   * Factory Method
   * Prototype
   * Singleton
- * Structural patterns
+ * **Structural patterns**
   * Adapter
   * Decorator
   * Facade
@@ -19,7 +19,7 @@
   * Flyweight
   * Bridge
   * Composite
- * Behavior patterns
+ * **Behavior patterns**
   * Visitor
   * Strategy
   * Chain of responsibility
