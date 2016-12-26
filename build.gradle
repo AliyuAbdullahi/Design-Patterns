@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'application'
 apply plugin: 'eclipse'
 
-mainClassName = 'main.java.patterns.Application'
+mainClassName = 'run.java.patterns.Application'
 
 repositories {
     mavenCentral()

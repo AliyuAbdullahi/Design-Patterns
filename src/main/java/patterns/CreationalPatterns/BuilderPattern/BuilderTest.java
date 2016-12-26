@@ -5,7 +5,7 @@ package main.java.patterns.CreationalPatterns.BuilderPattern;
  */
 public class BuilderTest {
 
-    public static void main(String... args) {
+    public static void run(String... args) {
         ArmouredTank monsterTank = new ArmouredTank.Builder()
                 .setName("Monster Tank one")
                 .setNumberOfPassengers(5)

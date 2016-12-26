@@ -5,7 +5,7 @@ package main.java.patterns.StructuralPatterns.FacadePattern;
  */
 public class FacadeTest {
 
-    public static void main(String... args) {
+    public static void run(String... args) {
         Gun ak47 = new Ak47();
 
         Soldier soldier = new Soldier(ak47);

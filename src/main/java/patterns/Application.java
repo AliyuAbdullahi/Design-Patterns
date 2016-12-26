@@ -7,6 +7,6 @@ import main.java.patterns.StructuralPatterns.FacadePattern.FacadeTest;
  */
 public class Application {
     public static void main(String[] args) {
-        FacadeTest.main();
+        FacadeTest.run();
     }
 }
