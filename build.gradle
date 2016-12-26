@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+mainClassName = 'main.java.patterns.Application'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar{
+    baseName ='design-patterns'
+    version='0.1.0'
+}
+
+dependencies {
+    compile "joda-time:joda-time:2.2"
+    testCompile "junit:junit:4.12"
+}
+
+task execute (type: JavaExec){
+    main = project.mainClassName
+    classpath = sourceSets.main.runtimeClasspath
+}
