@@ -22,6 +22,7 @@
  * **Behavior patterns**
   * Visitor
   * Strategy
+  * Observer
   * Chain of responsibility
   * Interpreter
   * Iterator

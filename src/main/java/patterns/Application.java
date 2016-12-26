@@ -1,6 +1,5 @@
 package main.java.patterns;
 
-
 import main.java.patterns.StructuralPatterns.FacadePattern.FacadeTest;
 
 /**

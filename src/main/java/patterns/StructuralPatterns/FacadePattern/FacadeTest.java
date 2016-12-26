@@ -1,6 +1,5 @@
 package main.java.patterns.StructuralPatterns.FacadePattern;
 
-
 /**
  * Created by aliyuabdullahi on 12/25/16.
  */

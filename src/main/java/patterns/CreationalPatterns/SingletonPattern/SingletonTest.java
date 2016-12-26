@@ -1,6 +1,5 @@
 package main.java.patterns.CreationalPatterns.SingletonPattern;
 
-
 import main.java.patterns.CreationalPatterns.SingletonPattern.models.Person;
 
 /**
