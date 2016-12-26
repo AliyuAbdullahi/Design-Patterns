@@ -1,5 +1,5 @@
 out
 .idea
 src/.DS_Store
-src/StructuralPatterns/.DS_Store
-src/StructuralPatterns/AdapterPattern/.DS_Store
+src/main/StructuralPatterns/.DS_Store
+src/main/StructuralPatterns/AdapterPattern/.DS_Store
