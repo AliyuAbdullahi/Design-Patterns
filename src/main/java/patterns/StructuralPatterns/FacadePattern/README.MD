@@ -7,8 +7,7 @@ Facade defines a higher-level interface that makes the subsystem easier to use.
 From sample code, we have an ```interface``` ```Gun``` and a ```class``` ```M4Cabine```
 and ```SMG```, which are types of ```Gun```. They both implement ```Gun```.
 
-We have another class ```Solder``` that needs a ```Gun```. All we have to inject is
-```Gun``` interface, therefore at implementation time, ```Solder``` can carry any type of
-```Gun```.
+We have another class ```Solder``` that needs a ```Gun```. All we have to do is inject
+```Gun``` interface, therefore at implementation time, ```Solder``` can carry any type of ```Gun```.
 
 
