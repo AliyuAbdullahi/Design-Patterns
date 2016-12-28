@@ -43,7 +43,6 @@ public class SocketAdapter implements Socket {
         } else {
             System.out.println("Adapter is bad and cannot connect");
         }
-
     }
 
     public void plugToSocket(int numberOfPoints) {
