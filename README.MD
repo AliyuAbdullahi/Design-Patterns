@@ -33,7 +33,9 @@
   * Template method
 
 ###Terminal Installation
- clone the project to your local repository.
+ Clone the project to your local repository. You can check [here]("https://help.github.com/articles/cloning-a-repository/")
+ for how to clone a repository.
+
  On your terminal, navigate to the project directory and
 
  run ```./gradlew build```
@@ -41,6 +43,12 @@
  watch it build, then
 
  run ```./gradlew run```
+
+###IDE Installation
+ Clone the project to your local repository.
+
+ Open the project on your IDE and run the ```Application.java```
+
 
 
 
