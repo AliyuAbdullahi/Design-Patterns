@@ -5,7 +5,7 @@ package main.java.patterns.BehavioralPatterns.ChainOfResponsibility;
  */
 public class MediaPlayer implements Media {
 
-    private Mp3Handler handler;
+    private Handler handler;
     private String file;
 
     public MediaPlayer(String file) {
