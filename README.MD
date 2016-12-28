@@ -33,7 +33,7 @@
   * Template method
 
 ###Terminal Installation
- Clone the project to your local repository. You can check [here]("https://help.github.com/articles/cloning-a-repository/")
+ Clone the project to your local repository. You can check [here](https://help.github.com/articles/cloning-a-repository/)
  for how to clone a repository.
 
  On your terminal, navigate to the project directory and
