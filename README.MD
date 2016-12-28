@@ -32,4 +32,16 @@
   * Command
   * Template method
 
+###Terminal Installation
+ clone the project to your local repository
+ On your terminal, navigate to the project directory and
+
+ run ```./gradlew build```
+
+ watch it build, then
+
+ run ```./gradlew run```
+
+
+
 
