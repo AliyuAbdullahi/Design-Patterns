@@ -6,6 +6,7 @@ import java.util.ArrayList;
  * Created by aliyuabdullahi on 12/27/16.
  */
 public class ObserverTest {
+
     public static void run(String... args) {
         String testMail = "Subject: Test\nCC: \nBody:\n  Hello all\n How are you doing today? Just checking on you.\n\n";
         String testMail2 = "Subject: Test\nCC: \nBody:\n  Hello \n I am doing fine and thanks for asking.\n\n";

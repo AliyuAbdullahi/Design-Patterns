@@ -4,11 +4,13 @@ package main.java.patterns.BehavioralPatterns.StatePattern;
  * Created by aliyuabdullahi on 12/27/16.
  */
 public class Lantern implements Lamp {
+
     private boolean isOn;
+
     @Override
     public void on() {
-       System.out.println("Lantern is on");
-       isOn = true;
+        System.out.println("Lantern is on");
+        isOn = true;
     }
 
     @Override

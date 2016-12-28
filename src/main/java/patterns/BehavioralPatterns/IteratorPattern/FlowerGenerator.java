@@ -6,6 +6,7 @@ import java.util.Random;
  * Created by aliyuabdullahi on 12/27/16.
  */
 public class FlowerGenerator {
+
     public static Flower[] generateFlowers(int numberOfFlowers) {
         String[] flowerNames = {"Rose", "Hibiscus", "Sun Flower", "Sun Rose", "Evil Flower"};
         Flower[] flowers = new Flower[numberOfFlowers];

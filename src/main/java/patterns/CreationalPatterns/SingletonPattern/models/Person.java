@@ -4,6 +4,7 @@ package main.java.patterns.CreationalPatterns.SingletonPattern.models;
  * Created by aliyuabdullahi on 12/25/16.
  */
 public class Person {
+
     private String name;
     private int age;
 

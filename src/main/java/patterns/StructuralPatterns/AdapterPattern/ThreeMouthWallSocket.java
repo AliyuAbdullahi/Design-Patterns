@@ -4,6 +4,7 @@ package main.java.patterns.StructuralPatterns.AdapterPattern;
  * Created by aliyuabdullahi on 12/25/16.
  */
 public class ThreeMouthWallSocket implements Socket {
+
     private boolean canPlugWire;
 
     @Override

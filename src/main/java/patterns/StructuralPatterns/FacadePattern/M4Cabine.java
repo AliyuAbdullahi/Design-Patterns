@@ -3,11 +3,12 @@ package main.java.patterns.StructuralPatterns.FacadePattern;
 /**
  * Created by aliyuabdullahi on 12/25/16.
  */
-public class M4Cabine implements  Gun {
+public class M4Cabine implements Gun {
 
     private static double BULLET_IMPACT = 80;
     private boolean isJammed;
     int numberOfBullets = 60;
+
     @Override
     public int numberOfBullets() {
         return numberOfBullets;
@@ -43,7 +44,7 @@ public class M4Cabine implements  Gun {
                 System.out.println("Click!");
                 Thread.sleep(500);
                 System.out.println("Gun is jammed, check the cartridge for bullets");
-            }catch (Exception e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }

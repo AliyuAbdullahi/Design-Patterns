@@ -4,6 +4,7 @@ package main.java.patterns.BehavioralPatterns.ObserverPattern;
  * Created by aliyuabdullahi on 12/27/16.
  */
 public class MailUser implements Observer<String> {
+
     private Subject subject;
     private String userIdentity;
     private String mail;

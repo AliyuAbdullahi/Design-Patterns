@@ -3,12 +3,14 @@ package main.java.patterns.BehavioralPatterns.StatePattern;
 /**
  * Created by aliyuabdullahi on 12/27/16.
  */
-public class SixtyWattBulb implements Lamp{
+public class SixtyWattBulb implements Lamp {
+
     private boolean isOn;
 
     SixtyWattBulb() {
         System.out.println("Sixty Watt Bulb enabled...");
     }
+
     @Override
     public void on() {
         isOn = true;

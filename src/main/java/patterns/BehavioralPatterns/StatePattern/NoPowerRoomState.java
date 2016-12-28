@@ -4,6 +4,7 @@ package main.java.patterns.BehavioralPatterns.StatePattern;
  * Created by aliyuabdullahi on 12/27/16.
  */
 public class NoPowerRoomState implements RoomState {
+
     @Override
     public boolean highPowerSupplied() {
         return false;

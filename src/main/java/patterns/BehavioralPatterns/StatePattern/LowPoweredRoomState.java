@@ -3,8 +3,10 @@ package main.java.patterns.BehavioralPatterns.StatePattern;
 /**
  * Created by aliyuabdullahi on 12/27/16.
  */
-public class LowPoweredRoomState implements  RoomState {
+public class LowPoweredRoomState implements RoomState {
+
     private boolean hasPower;
+
     @Override
     public boolean highPowerSupplied() {
         return hasPower;

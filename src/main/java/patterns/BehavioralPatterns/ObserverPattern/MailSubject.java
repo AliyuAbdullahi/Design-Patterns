@@ -6,6 +6,7 @@ import java.util.List;
  * Created by aliyuabdullahi on 12/26/16.
  */
 public class MailSubject implements Subject<String> {
+
     private String mail;
     private List<Observer> observers;
 

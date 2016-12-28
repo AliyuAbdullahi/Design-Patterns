@@ -4,6 +4,7 @@ package main.java.patterns.StructuralPatterns.AdapterPattern;
  * Created by aliyuabdullahi on 12/25/16.
  */
 public class ThreePointsWire implements Wire {
+
     @Override
     public int numberOfPoints() {
         return 3;

@@ -4,6 +4,7 @@ package main.java.patterns.CreationalPatterns.BuilderPattern;
  * Created by aliyuabdullahi on 12/26/16.
  */
 public class ArmouredTank {
+
     private String name;
     private boolean grenadeLunchEnabled;
     private boolean hasTopCover;
@@ -76,10 +77,10 @@ public class ArmouredTank {
     @Override
     public String toString() {
         return "Tank: {\n     Name                 :    " + name + "\n"
-                + "     WeightInPounds       :    " + weightInPounds + "\n     "+"GrenadeEnabled       :    "
+                + "     WeightInPounds       :    " + weightInPounds + "\n     " + "GrenadeEnabled       :    "
                 + grenadeLunchEnabled
-                + "\n     HasTopCover          :    " +hasTopCover+"\n     MaximumGrenadeDamage :    "
-                + maximumGrenadeDamage +" imp"
+                + "\n     HasTopCover          :    " + hasTopCover + "\n     MaximumGrenadeDamage :    "
+                + maximumGrenadeDamage + " imp"
                 + "\n     NumberOfPassengers   :    " + numberOfPassengers + "\n}";
     }
 }

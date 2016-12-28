@@ -80,7 +80,7 @@ public class PersonRepository implements IRepository<Person> {
 
     @Override
     public void deleteAll() {
-        for(int i = 0; i < personList.size(); i++) {
+        for (int i = 0; i < personList.size(); i++) {
             personList.remove(i);
         }
         System.out.println("List is now empty.");

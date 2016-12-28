@@ -6,5 +6,4 @@ package main.java.patterns.BehavioralPatterns.ChainOfResponsibility;
 public interface Media {
 
     void play();
-
 }

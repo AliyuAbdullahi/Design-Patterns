@@ -6,6 +6,7 @@ import java.util.Iterator;
  * Created by aliyuabdullahi on 12/27/16.
  */
 public class FlowerCollection implements Iterator<Flower> {
+
     Flower[] flowers;
     int flowerPosition;
 

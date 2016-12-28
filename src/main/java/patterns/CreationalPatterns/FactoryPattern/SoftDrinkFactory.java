@@ -8,6 +8,7 @@ package main.java.patterns.CreationalPatterns.FactoryPattern;
  * {@code SoftDrinkFactory} is a factory where individual(user) can get either coffee drink or coke drink.
  */
 public class SoftDrinkFactory implements CokePump, CoffeePump {
+
     private static final String COFFEE_DRINK = "Coffee";
     private static final String COKE_DRINK = "Coke";
     private double coffeeVolume;
