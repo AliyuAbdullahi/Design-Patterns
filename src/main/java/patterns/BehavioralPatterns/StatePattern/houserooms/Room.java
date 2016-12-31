@@ -1,4 +1,4 @@
-package main.java.patterns.BehavioralPatterns.StatePattern;
+package main.java.patterns.BehavioralPatterns.StatePattern.houserooms;
 
 import main.java.patterns.BehavioralPatterns.StatePattern.assessories.Lamp;
 import main.java.patterns.BehavioralPatterns.StatePattern.states.RoomState;

@@ -1,15 +1,16 @@
-package main.java.patterns.BehavioralPatterns.StatePattern;
+package main.java.patterns.BehavioralPatterns.StatePattern.houserooms;
 
 import main.java.patterns.BehavioralPatterns.StatePattern.assessories.Lamp;
 import main.java.patterns.BehavioralPatterns.StatePattern.assessories.Lantern;
 import main.java.patterns.BehavioralPatterns.StatePattern.assessories.LowVoltageBulb;
 import main.java.patterns.BehavioralPatterns.StatePattern.assessories.SixtyWattBulb;
+import main.java.patterns.BehavioralPatterns.StatePattern.houserooms.Room;
 import main.java.patterns.BehavioralPatterns.StatePattern.states.RoomState;
 
 /**
  * Created by aliyuabdullahi on 12/27/16.
  */
-public class BedRoom  implements Room{
+public class BedRoom  implements Room {
 
     private RoomState roomState;
     private Lamp lamp;
