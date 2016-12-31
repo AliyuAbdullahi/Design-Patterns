@@ -1,5 +1,10 @@
 package main.java.patterns.BehavioralPatterns.ObserverPattern;
 
+import main.java.patterns.BehavioralPatterns.ObserverPattern.observers.MailUser;
+import main.java.patterns.BehavioralPatterns.ObserverPattern.observers.Observer;
+import main.java.patterns.BehavioralPatterns.ObserverPattern.subjects.MailSubject;
+import main.java.patterns.BehavioralPatterns.ObserverPattern.subjects.Subject;
+
 import java.util.ArrayList;
 
 /**
